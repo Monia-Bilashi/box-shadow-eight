@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-one {
+    width: 40%;
+    height: 250px;
+    border: 1px solid black;
+    margin: 20px auto;
+    background-color: lightgray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.box-one,
+.box-two,
+.box-three,
+.box-four,
+.box-five,
+.box-six,
+.box-seven,
+.box-eight {
+    width: 100px;
+    height: 80px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.box-one {
+    box-shadow: 0px 0px 20px 7px #59a6bf;
+    border-radius: 5px;
+}
+
+.box-two {
+    box-shadow: 5px 5px 6px 0px grey;
+    border-radius: 5px;
+}
+
+.box-three {
+    box-shadow: 0px 6px 6px 0px grey;
+    border-radius: 5px;
+}
+
+.box-four {
+    box-shadow: 13px 14px 3px 1px grey;
+    border-radius: 5px;
+}
+
+.box-five {
+    box-shadow: 0px -3px 3px 1px grey, 0px 10px 3px 1px grey, -11px 0px 3px 1px gray, 11px 0px 3px 1px grey, 0px 0px 3px 7px grey;
+    border-radius: 5px;
+}
+
+.box-six {
+    box-shadow: inset -1px 1px 11px 4px grey;
+    border-radius: 5px;
+}
+
+.box-seven {
+    box-shadow: -12px -11px 3px 2px grey;
+    border-radius: 5px;
+}
+
+.box-eight {
+    box-shadow: 0px 0px 2px 2px red, 0px 0px 2px 4px white, 0px 0px 2px 6px black, 0px 0px 2px 8px white, 0px 0px 2px 10px blue;
+    border-radius: 5px;
+}
+
+.box-one-neon:hover {
+    border: 5px solid red;
+    height: 100px;
+    width: 120px;
+}
